@@ -1,9 +1,9 @@
-let texto = prompt("ingrese un texto").toLowerCase;
+let texto = prompt("ingrese un texto").toLowerCase();
 const Vocales = [];
 let contadorDVocales = 0;
 
-while (contadorDVocales < frase.length) {
-  if (
+while(contadorDVocales < frase.length-1){
+  if(
     frase.charAt(contadorDVocales) === "a" ||
     frase.charAt(contadorDVocales) === "á" ||
     frase.charAt(contadorDVocales) === "e" ||
@@ -15,8 +15,9 @@ while (contadorDVocales < frase.length) {
     frase.charAt(contadorDVocales) === "u" ||
     frase.charAt(contadorDVocales) === "ú"
   ) 
-  contadorDVocales++
   {
     document.write(contadorDVocales);
   }
+  contadorDVocales++
 }
+document.write('Vocales encontradas en la frase son:' + contadorDVocales);
