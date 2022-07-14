@@ -15,3 +15,6 @@ if (nota <= 2) {
 } else {
   alert("el numero ingresado no es valido");
 }
+
+
+// se puede hacer con switch
