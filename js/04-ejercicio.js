@@ -6,6 +6,6 @@ let suma = 0;
 
 do{
     let numero = (prompt('ingresa un numero'));
-   
+
    
 }while(confirm(document.write(suma)));
